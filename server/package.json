@@ -1,0 +1,19 @@
+{
+  "name": "cinebook-server",
+  "version": "1.0.0",
+  "description": "CineBook Movie Ticket Booking Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
